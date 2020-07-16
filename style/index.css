@@ -47,3 +47,42 @@ table {
     font-size: 62.5%;
     box-sizing: border-box;
 }
+.header {
+    display: flex;
+    flex-flow: column wrap;
+    background-color: cornsilk;
+}
+.myname h1 {
+    font-family: 'Indie Flower', cursive;
+    font-size: 6.5rem;
+    margin: 2rem 0;
+}
+.buttons button {
+    font-family: 'Lobster', cursive;
+    font-size: 1.5rem; 
+    color: honeydew;
+    background-color: indianred;
+    border: 1rem outset grey;
+    margin: 2rem 0;
+}
+.buttons button:hover {
+    background-color: ivory;
+    color: mediumblue;
+}
+.secondaryheading {
+    font-family: 'Indie Flower', cursive;
+    font-size: 4.5rem;
+    margin: 2rem 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
