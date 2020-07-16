@@ -48,22 +48,25 @@ table {
     box-sizing: border-box;
 }
 .header {
-    display: flex;
-    flex-flow: column wrap;
     background-color: cornsilk;
+    text-align: center;
 }
-.myname h1 {
+.myname {
     font-family: 'Indie Flower', cursive;
     font-size: 6.5rem;
-    margin: 2rem 0;
+    padding: 2rem 0;
 }
-.buttons button {
+.buttons {
+    display:flex;
+    justify-content: space-evenly;
+}
+.header button {
     font-family: 'Lobster', cursive;
     font-size: 1.5rem; 
     color: honeydew;
     background-color: indianred;
     border: 1rem outset grey;
-    margin: 2rem 0;
+    margin: 1rem 0;
 }
 .buttons button:hover {
     background-color: ivory;
@@ -74,7 +77,16 @@ table {
     font-size: 4.5rem;
     margin: 2rem 0;
 }
-
+.personalinfo {
+    display:flex;
+    width: 50rem;
+    margin: 0 auto;
+}
+.personalinfo p {
+    font-family: 'Indie Flower', cursive;
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+}
 
 
 
