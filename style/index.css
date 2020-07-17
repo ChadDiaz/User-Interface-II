@@ -19,7 +19,6 @@ time, mark, audio, video {
 	font: inherit;
 	vertical-align: baseline;
 }
-/* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
 	display: block;
@@ -56,11 +55,11 @@ table {
     font-size: 6.5rem;
     padding: 2rem 0;
 }
-.buttons {
+.anchor {
     display:flex;
     justify-content: space-evenly;
 }
-.header button {
+.anchor a {
     font-family: 'Lobster', cursive;
     font-size: 1.5rem; 
     color: honeydew;
