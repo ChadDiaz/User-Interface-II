@@ -86,14 +86,17 @@ table {
     font-size: 1.5rem;
     margin-bottom: 2rem;
 }
-
-
-
-
-
-
-
-
-
-
-
+.mainpro {
+    height: 30rem; 
+    object-fit: cover;
+    width: 100%;
+}
+.addpro {
+    display: flex;
+}
+.img {
+    display: flex;
+}
+.addpro img {
+    flex-direction: row;
+}
