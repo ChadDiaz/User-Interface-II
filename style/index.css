@@ -46,6 +46,7 @@ table {
     font-size: 62.5%;
     box-sizing: border-box;
 }
+
 .header {
     background-color: cornsilk;
     text-align: center;
@@ -103,7 +104,7 @@ table {
 .addimg {
     display: flex;
     justify-content: space-between;
-}
+}   
 .addimg img {
     height: 15rem;
 }
@@ -111,6 +112,11 @@ table {
     font-family: 'Indie Flower', cursive;
     font-size: 1.5rem;
     width: 50%;
+}
+@media (max-width:917px){
+    .addimg {
+        display: block;
+    }
 }
 /* ALL FOOTER INFO */
 .footer {
