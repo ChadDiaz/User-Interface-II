@@ -46,6 +46,10 @@ table {
     font-size: 62.5%;
     box-sizing: border-box;
 }
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
 
 .header {
     background-color: cornsilk;
