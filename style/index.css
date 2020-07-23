@@ -1,1 +1,176 @@
-/* Add CSS styling here */
+/* CSS RESET  */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+/* CHAD CSS STYLE */
+* html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.header {
+    background-color: cornsilk;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.myname {
+    font-family: 'Indie Flower', cursive;
+    font-size: 6.5rem;
+    padding: 1rem 0;
+}
+.myname a {
+    text-decoration: none;
+    color: black;
+}
+/* TOP ANCHORS */
+.anchor {
+    display:flex;
+    justify-content: space-evenly;
+}
+.anchor a {
+    font-family: 'Lobster', cursive;
+    font-size: 1.5rem; 
+    color: honeydew;
+    background-color: indianred;
+    border: 1rem outset grey;
+    margin: 1rem 0;
+}
+.anchor a:hover {
+    background-color: ivory;
+    color: mediumblue;
+    border-color: crimson;
+}
+/* SECONDARY HEADING */
+.secondaryheading {
+    font-family: 'Indie Flower', cursive;
+    font-size: 4.5rem;
+    margin: 2rem auto;
+}
+.personalinfo {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0% 1%;
+}
+.personalinfo p {
+    font-family: 'Indie Flower', cursive;
+    font-size: 1.5rem;
+    margin: 0 auto;
+    padding: 1.5%;
+}
+/* MAIN PROJECT PIC */
+.mainpro {
+    height: 20rem; 
+    object-fit: cover;
+    width: 100%;
+}
+/* ADDITIONAL PROJECT PICS */
+.addimg {
+    display: flex;
+    justify-content: space-between;
+}   
+.addimg img {
+    margin: .5%;
+}
+.addimg p {
+    font-family: 'Indie Flower', cursive;
+    font-size: 2rem;
+    margin: 0 auto;
+    width: 50%;
+    padding: 1%;
+    align-self: center;
+}
+
+/* ALL FOOTER INFO */
+.footer {
+    display: flex;
+    margin-top: 1rem;
+    background-color: cornsilk;
+}
+.footer a {
+    font-family: 'Lobster', cursive;
+    font-size: 2rem; 
+    color: honeydew;
+    background-color: indianred;
+    border: 1rem outset grey;
+    text-decoration: none;
+    margin: 0 auto;
+}
+.footer a:hover {
+    background-color: ivory;
+    color: mediumblue;
+    border-color: crimson;
+}
+/* MEDIA QUERIES */
+@media (max-width: 1280px){
+    .container {
+        width: 100%;
+    }
+    .addimg {
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+       .addimg p {
+        width: 90%;
+        margin: 0 auto;
+        padding: 1%;
+    }
+}
+@media (max-width: 835px) {
+     .addimg {
+         justify-content: center;
+     }
+}
+@media (max-width: 618px) {
+    .addimg {
+        justify-content: space-evenly;
+    }
+    .myname, .secondaryheading {
+        padding: 2%;
+    }
+} 
